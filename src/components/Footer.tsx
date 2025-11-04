@@ -17,54 +17,12 @@ export const Footer = () => {
               A primeira plataforma de gestão de aluguéis baseada em blockchain
             </p>
           </div>
-          
-          <div>
-            <h3 className="font-semibold mb-4">Produto</h3>
-            <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><Link to="/#funciona" className="hover:text-foreground transition-colors">Como Funciona</Link></li>
-              <li><Link to="/precos" className="hover:text-foreground transition-colors">Preços</Link></li>
-              <li><Link to="/seguranca" className="hover:text-foreground transition-colors">Segurança</Link></li>
-              <li><Link to="/roadmap" className="hover:text-foreground transition-colors">Roadmap</Link></li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="font-semibold mb-4">Recursos</h3>
-            <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><Link to="/documentacao" className="hover:text-foreground transition-colors">Documentação Técnica</Link></li>
-              <li><Link to="/api" className="hover:text-foreground transition-colors">API Reference</Link></li>
-              <li><Link to="/whitepaper" className="hover:text-foreground transition-colors">Whitepaper</Link></li>
-              <li><Link to="/blog" className="hover:text-foreground transition-colors">Blog</Link></li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="font-semibold mb-4">Suporte</h3>
-            <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><Link to="/ajuda" className="hover:text-foreground transition-colors">Central de Ajuda</Link></li>
-              <li><Link to="/contato" className="hover:text-foreground transition-colors">Contato</Link></li>
-              <li><Link to="/discord" className="hover:text-foreground transition-colors">Discord</Link></li>
-              <li><Link to="/status" className="hover:text-foreground transition-colors">Status</Link></li>
-            </ul>
-          </div>
+                  
         </div>
         
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © 2024 RentChain. Todos os direitos reservados.
-          </p>
-          
-          <div className="flex items-center gap-4">
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
-              <Twitter className="w-5 h-5" />
-            </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
-              <Linkedin className="w-5 h-5" />
-            </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
-              <Github className="w-5 h-5" />
-            </a>
-          </div>
+          </p>          
         </div>
       </div>
     </footer>

@@ -45,13 +45,13 @@ export const HeroSection = () => {
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" variant="hero" className="text-base" asChild>
-                <Link to="/auth?mode=signup&type=broker">
+                <Link to="">
                   <Shield className="w-5 h-5" />
                   Sou Corretor
                 </Link>
               </Button>
               <Button size="lg" variant="outline" className="text-base" asChild>
-                <Link to="/auth?mode=signup&type=tenant">
+                <Link to="">
                   Sou Locador/Locatário
                 </Link>
               </Button>

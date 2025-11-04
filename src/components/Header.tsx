@@ -14,28 +14,7 @@ export const Header = () => {
             <span className="text-xl font-bold text-foreground">RentChain</span>
           </Link>
           
-          <nav className="hidden md:flex items-center gap-8">
-            <Link to="/#funciona" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-              Como Funciona
-            </Link>
-            <Link to="/#beneficios" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-              Benefícios
-            </Link>
-            <Link to="/documentacao" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-              Documentação
-            </Link>
-            <Link to="/suporte" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-              Suporte
-            </Link>
-          </nav>
-          
           <div className="flex items-center gap-3">
-            <Button variant="ghost" asChild>
-              <Link to="/auth">Login</Link>
-            </Button>
-            <Button variant="hero" asChild>
-              <Link to="/auth?mode=signup">Começar</Link>
-            </Button>
           </div>
         </div>
       </div>
